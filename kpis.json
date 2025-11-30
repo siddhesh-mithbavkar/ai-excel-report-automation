@@ -1,0 +1,64 @@
+{
+    "total_rows": 1000,
+    "total_columns": 14,
+    "metric_column": "Annual Salary",
+    "category_column": "Job Title",
+    "date_column": null,
+    "metric_total": 113217365.0,
+    "metric_mean": 113217.365,
+    "metric_min": 40063.0,
+    "metric_max": 258498.0,
+    "missing_cells": 915,
+    "missing_pct": 6.5357142857142865,
+    "duplicate_rows": 0,
+    "duplicate_pct": 0.0,
+    "missing_values": {
+        "EEID": 0,
+        "Full Name": 0,
+        "Job Title": 0,
+        "Department": 0,
+        "Business Unit": 0,
+        "Gender": 0,
+        "Ethnicity": 0,
+        "Age": 0,
+        "Hire Date": 0,
+        "Annual Salary": 0,
+        "Bonus %": 0,
+        "Country": 0,
+        "City": 0,
+        "Exit Date": 915
+    },
+    "data_types": {
+        "EEID": "object",
+        "Full Name": "object",
+        "Job Title": "object",
+        "Department": "object",
+        "Business Unit": "object",
+        "Gender": "object",
+        "Ethnicity": "object",
+        "Age": "int64",
+        "Hire Date": "datetime64[ns]",
+        "Annual Salary": "int64",
+        "Bonus %": "float64",
+        "Country": "object",
+        "City": "object",
+        "Exit Date": "datetime64[ns]"
+    },
+    "categorical_summary": {
+        "Job Title": {
+            "unique_values": 33,
+            "top_values": {
+                "Director": 121,
+                "Sr. Manger": 110,
+                "Vice President": 105,
+                "Manager": 98,
+                "Sr. Analyst": 70,
+                "Analyst II": 53,
+                "Analyst": 51,
+                "Account Representative": 21,
+                "Computer Systems Manager": 21,
+                "Field Engineer": 21
+            }
+        }
+    }
+}

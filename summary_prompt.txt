@@ -1,0 +1,66 @@
+
+You are an experienced business analyst. Based on the following KPIs from an orders dataset, write a clear, concise business summary and key insights.
+
+DATA SUMMARY:
+- Date range: 2018-01-01 to 2018-12-31
+- Total orders: 500
+- Unique customers: 336
+- Unique order IDs: 500
+
+ORDERS BY STATE:
+- Maharashtra: 94 orders
+- Madhya Pradesh: 93 orders
+- Rajasthan: 32 orders
+- Gujarat: 27 orders
+- Uttar Pradesh: 25 orders
+- Punjab: 25 orders
+- Delhi: 24 orders
+- West Bengal: 22 orders
+- Karnataka: 20 orders
+- Kerala : 16 orders
+- Bihar: 16 orders
+- Andhra Pradesh: 15 orders
+- Nagaland: 15 orders
+- Himachal Pradesh: 14 orders
+- Haryana: 14 orders
+- Goa: 14 orders
+- Jammu and Kashmir: 14 orders
+- Sikkim: 12 orders
+- Tamil Nadu: 8 orders
+
+TOP CITIES BY ORDERS:
+- Indore: 71 orders
+- Mumbai: 67 orders
+- Chandigarh: 30 orders
+- Pune: 27 orders
+- Delhi: 24 orders
+- Bhopal: 22 orders
+- Kolkata: 22 orders
+- Bangalore: 20 orders
+- Jaipur: 19 orders
+- Ahmedabad: 17 orders
+
+MISSING VALUES PER COLUMN:
+- Order ID: 0 missing
+- Order Date: 0 missing
+- CustomerName: 0 missing
+- State: 0 missing
+- City: 0 missing
+
+DATA TYPES:
+- Order ID: object
+- Order Date: datetime64[ns]
+- CustomerName: object
+- State: object
+- City: object
+
+
+TASK:
+Using the information above, write:
+
+1. A short executive summary (3–5 lines) explaining overall performance.
+2. 3–5 key insights about states and cities (who performs best, any concentration).
+3. Any potential data quality comments (based on missing values or data types).
+4. 2–3 business recommendations for the sales/operations team.
+
+Keep the language simple, professional, and non-technical. Do not repeat the raw numbers list; instead, interpret them.
