@@ -120,27 +120,6 @@ Useful for:
 
 ---
 
-## 📁 Project Structure
-
-AI-Report-Automation/
-│
-├── app.py # Main Streamlit UI
-├── analyze_data.py # Data profiling logic
-├── generate_summary.py # AI summary generator
-├── export_pdf.py # PDF export
-├── export_docx.py # DOCX export
-│
-├── sample_data/
-│ └── sample.xlsx
-│
-├── assets/
-│ └── screenshot1.png
-│ └── screenshot2.png
-│
-├── requirements.txt
-├── .gitignore
-└── README.md
-
 
 ## 🔑 Environment Variables
 
